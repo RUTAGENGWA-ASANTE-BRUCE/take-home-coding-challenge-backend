@@ -17,6 +17,12 @@
     "@types/express": "^4.17.14",
     "@types/node": "^18.11.9",
     "express": "^4.18.2",
+    "finnhub": "^1.2.1",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@stoqey/finnhub": "^0.3.4",
+    "dotenv": "^16.0.3",
+    "express-validator": "^6.14.2"
   }
 }
