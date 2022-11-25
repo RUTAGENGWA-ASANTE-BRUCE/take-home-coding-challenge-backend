@@ -24,5 +24,6 @@
     "@stoqey/finnhub": "^0.3.4",
     "dotenv": "^16.0.3",
     "express-validator": "^6.14.2"
-  }
+  },
+  "engines": { "node": "12.16.3" }
 }
