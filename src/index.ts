@@ -10,6 +10,6 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use('/api/v1', routes);
 
 // start the server
-app.listen(8081, () => {
+app.listen(8081 || process.env.PORT, () => {
   console.log(`server running : http://localhost:8081`);
 });
